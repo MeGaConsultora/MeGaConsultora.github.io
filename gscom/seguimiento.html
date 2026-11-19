@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>GScom se mudó</title>
+<script>
+  // GScom ahora está en https://gscom-ar.github.io/ (se conserva la pantalla: #/...)
+  var resto = location.pathname.replace(/^\/gscom\/?/i, '');
+  location.replace('https://gscom-ar.github.io/' + resto + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="2; url=https://gscom-ar.github.io/">
+<style>body{font-family:system-ui,sans-serif;background:#f3f4f6;color:#111;display:grid;place-items:center;min-height:100vh;margin:0;padding:16px;text-align:center}</style>
+</head>
+<body>
+<p>GScom se mudó a <a href="https://gscom-ar.github.io/">gscom-ar.github.io</a>. Te llevamos ahí…</p>
+</body>
+</html>
